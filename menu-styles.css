@@ -1,0 +1,203 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 900px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1, h2, h3, nav, div {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    display: inline;
+    padding-top: 50px;
+}
+
+table {
+    margin: 30px;    
+}
+
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px;
+}
+
+
+/* Helpers */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-element {
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+/* structure */
+#header {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.column {
+    height: 100%;
+    width: 90%;
+}
+
+.home {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    background-color: rgba(106,189,206)
+
+}
+
+.location {
+    height: 400px;
+    background-color: white;
+}
+
+#landing-info {
+    margin-top: 15%;
+    width: 40%;
+    float: left;
+}
+
+#cat-section {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background: #c5e8e8;
+}
+
+.cat-card {
+    height: 400px;
+    width: 92%;
+    min-width: 700px;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(5, 48, 79,0.16), 0 3px 6px rgba(5, 48, 79,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.cat-card:hover {
+  box-shadow: 0 14px 28px rgba(5, 48, 79,0.25), 0 10px 10px rgba(5, 48, 79,0.22);
+}
+
+#chinese-menu {
+    width: 100%;
+    margin-top: 20px;
+    padding: 25px, 0px, 25px, 0px;
+}
+
+.location-container {
+    padding: 35px;
+}
+
+/* Images */
+
+
+#landing-img {
+    margin-top: 4%;
+    width: 60%;
+}
+
+.cat-img {
+    height: 100%;;
+}
+
+/*text styling*/
+
+.nav-link {
+    margin-left: -15px;
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    
+}
+
+.landing-header {
+
+    font-size: 55px;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+
+}
+
+.landing-desc {
+    color: #056291;
+    font-size: 25px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.cat-desc {
+    width: 60%;
+    padding: 15px;
+    color: #056291;
+}
+
+#compName {
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    
+}
+
+.food-header {
+    color: #056291;
+    background: #98dee0;
+}
+}
+
+/*button*/
+.button {
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+}
